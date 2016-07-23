@@ -1,0 +1,234 @@
+>> load 102m.mat
+>> data=val;
+>> peaks=findpeaks(data,'threshold',.8);
+>> peakss=findpeaks(data,'npeaks',7680);
+>> plot(peakss)
+>> plot(peakss)
+>> 
+>> plot(peakss)
+>> peaks=findpeaks(peakss,'minpeakheight',175);
+>> peaks=findpeaks(peakss,'minpeakheight',175);
+>> plot(peaks)
+>> doc
+>> number=length(peaks)
+
+number =
+
+   323
+
+>> doc
+>> plot(peakss)
+>> peak=findpeaks(peakss,'threshold',30);
+>> plot(peak)
+>> numbers=length(peak)
+
+numbers =
+
+   421
+
+>> plotATM('102m')
+>> load('102m.mat')
+>> bpm=length/3600
+Error using length
+Not enough input arguments.
+ 
+>> bpm=numbers/3600
+
+bpm =
+
+    0.1169
+
+>> bps=bpm
+
+bps =
+
+    0.1169
+
+>> bpm=(bps*60)
+
+bpm =
+
+    7.0167
+
+>> hold off
+>> plot peak
+Error using plot
+Invalid first data argument
+ 
+>> plot (peak)
+>> graphtheplot
+Error: File: graphtheplot.m Line: 7 Column: 12
+Unexpected MATLAB expression.
+ 
+>> graphtheplot
+Error using load
+Unable to read file '201m.mat': no such file or directory.
+
+Error in plotATM (line 30)
+load(matName);
+
+Error in graphtheplot (line 7)
+plotATM('201m')
+ 
+>> plotATM('201m')
+Error using load
+Unable to read file '201m.mat': no such file or directory.
+
+Error in plotATM (line 30)
+load(matName);
+ 
+>> plotATM('102m')
+>> graphtheplot
+>> doc
+>> graphtheplot
+>> bpm=numbers/3500
+
+bpm =
+
+    0.1203
+
+>> bps=bpm
+
+bps =
+
+    0.1203
+
+>> bpm=(bps*60)
+
+bpm =
+
+    7.2171
+
+>> graphtheplot
+>> doc
+
+
+
+DONTKNOWWHATAHPPENED
+
+
+>> detrend=val;
+>> plot(detrend)
+>> findit
+:200\
+ 200\
+     |
+Error: Expression or statement is incomplete or incorrect.
+ 
+>> findit\
+ findit\
+        |
+Error: Expression or statement is incomplete or incorrect.
+ 
+>> 200\
+ 200\
+     |
+Error: Expression or statement is incomplete or incorrect.
+ 
+>> findit
+:200
+
+x =
+
+   200
+
+
+bps =
+
+    1.2883
+
+
+bpm =
+
+   77.3000
+
+>> findit
+Error: File: findit.m Line: 9 Column: 40
+Unexpected MATLAB expression.
+ 
+>> findit
+:200
+
+x =
+
+   200
+
+
+bps =
+
+   8.9072e-05
+
+
+bpm =
+
+    0.0053
+
+>> findit
+:200
+
+x =
+
+   200
+
+
+bps =
+
+    1.4594
+
+
+bpm =
+
+   87.5611
+
+>> findit
+:150
+
+x =
+
+   150
+
+
+bps =
+
+    1.5003
+
+
+bpm =
+
+   90.0153
+
+>> findit
+:100
+
+x =
+
+   100
+
+
+bps =
+
+    1.5040
+
+
+bpm =
+
+   90.2419
+
+>> findit
+:70
+
+x =
+
+    70
+
+
+bps =
+
+    1.6019
+
+
+bpm =
+
+   96.1133
+
+>> 
