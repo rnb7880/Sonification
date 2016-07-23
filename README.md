@@ -1,5 +1,4 @@
 # Sonification
-Work from Summer 2014
 
 MATLAB and Max/MSP files from Summer 2014
 
